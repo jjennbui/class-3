@@ -1,0 +1,11 @@
+.name{ 
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }

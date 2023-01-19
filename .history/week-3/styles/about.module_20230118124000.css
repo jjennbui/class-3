@@ -1,0 +1,9 @@
+.name{ 
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+  }
+
+  .grid{
+    display: flex;
+  }
