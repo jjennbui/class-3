@@ -1,0 +1,24 @@
+import data from '../data/about.json'
+
+export default function About() {
+    return(
+        <div>About Page</div>
+
+
+
+    
+        {
+          information && information.map((info, index) => {
+            if(info.department.toLowerCase () == "computing") {
+            return(
+              <Card key={index} degree={info.employee} colour="blue" font="20px"/>
+            )
+            }
+          })
+        }
+
+
+
+    )
+}
+
